@@ -8,5 +8,5 @@ RUN pip install --upgrade itsdangerous
 RUN pip install --upgrade MarkupSafe
 RUN pip install --upgrade Werkzeug
 
-EXPOSE 80
+EXPOSE 3000
 CMD ["python3", "app.py"]
